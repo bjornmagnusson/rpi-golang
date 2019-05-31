@@ -1,7 +1,7 @@
 FROM resin/rpi-raspbian:jessie-20170111 as build
 
 # Install Go
-ENV GOVERSION 1.9.5
+ENV GOVERSION 1.12.5
 ENV GOTAR go$GOVERSION.linux-armv6l.tar.gz
 ENV GOPATH /go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
